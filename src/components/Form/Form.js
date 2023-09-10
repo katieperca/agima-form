@@ -18,7 +18,7 @@ function Form(props) {
   function handleUploadFile(e) {
     setIsFileUploaded(true);
     setIsTextareaEnabled(false);
-    setFileName(e.target.value.replace(/.+[\\]/, ""));
+    setFileName(e.target.value.replace(/.+[\\]/, ''));
   }
 
   function handleDeleteButtonClick() {
@@ -39,8 +39,8 @@ function Form(props) {
   }
 
   return (
-    <section className='customerform'>
-      <form onSubmit={handleSubmit} className='customerform__form form'>
+    <section className='customer-form'>
+      <form onSubmit={handleSubmit} className='customer-form__form form'>
         <h2 className='form__title'>Сообщение в свободной форме</h2>
         <div className='form__input-container'>
           <input className='form__input' type='text' id='name' placeholder='Ваше имя' required />
@@ -69,14 +69,14 @@ function Form(props) {
         </div>
         <div className='form__input-container'>
           <textarea onChange={handleFillInput} className='form__textarea' placeholder='Напишите текст обращения' disabled={!isTextareaEnabled} required/>
-          <button type='button' onClick={props.onButtonClick} className='form__textarea-button' />
+          <button type='button' onClick={props.onButtonClick} className='form__tip-button' aria-label="Открыть инструкцию по заполнению" />
         </div>
         <div className='form__input-container form__input-container_type_upload'>
           <input ref={inputRef} onChange={handleUploadFile} type='file' accept='.doc, .docx, .txt, .pdf' className='form__input form__input_type_upload' id='upload'  required disabled={!isUploadEnabled}/>
-          <label className='form__label form__label_type_upload' htmlFor='upload'>или прикрепите файл</label>
+          <label tabIndex='2' className='form__label form__label_type_upload' htmlFor='upload'>или прикрепите файл</label>
           <div className={`form__filename-container ${isFileUploaded ? 'form__filename-container_shown' : ''}`}>
             <span className='form__filename'>{fileName}</span>
-            <button onClick={handleDeleteButtonClick} className='form__upload-button' type='button' />
+            <button onClick={handleDeleteButtonClick} className='form__upload-button' type='button' aria-label="Удалить прикрепленный файл"/>
           </div>
         </div>
         <div className='form__submit-container'>

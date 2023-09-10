@@ -1,6 +1,6 @@
 .content__container {
   position: relative;
-  transition: transform 0.8s;
+  transition: transform .8s ease-in-out;
   transform-style: preserve-3d;
   width: 628px;
   height: 803px;
@@ -17,4 +17,5 @@
   text-align: center;
   font-size: 42px;
   line-height: normal;
+  font-weight: 500;
 }
