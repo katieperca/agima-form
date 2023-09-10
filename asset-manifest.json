@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/agima-form/static/css/main.55f589a0.css",
+    "main.js": "/agima-form/static/js/main.853ef107.js",
+    "static/js/787.12537272.chunk.js": "/agima-form/static/js/787.12537272.chunk.js",
+    "static/media/Roboto-Medium.ttf": "/agima-form/static/media/Roboto-Medium.2699aefade440f0e338f.ttf",
+    "static/media/background-image.png": "/agima-form/static/media/background-image.ffea43aca7137599af14.png",
+    "static/media/question-hover.svg": "/agima-form/static/media/question-hover.d95bf0069399cfb15f68.svg",
+    "static/media/question.svg": "/agima-form/static/media/question.0896a8093e1c5e5acfd6.svg",
+    "static/media/arrow-back.svg": "/agima-form/static/media/arrow-back.732ca3d36f3c140ebc77.svg",
+    "index.html": "/agima-form/index.html",
+    "static/media/delete-button.svg": "/agima-form/static/media/delete-button.9137d94e75ffa9b44428.svg",
+    "main.55f589a0.css.map": "/agima-form/static/css/main.55f589a0.css.map",
+    "main.853ef107.js.map": "/agima-form/static/js/main.853ef107.js.map",
+    "787.12537272.chunk.js.map": "/agima-form/static/js/787.12537272.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55f589a0.css",
+    "static/js/main.853ef107.js"
+  ]
+}
