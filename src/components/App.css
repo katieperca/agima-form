@@ -1,0 +1,14 @@
+html {
+  background-color: #E3E3E3;
+  background-image: url(../images/background-image.png);
+  background-size: 1728px 1080px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 600;
+  color: #000;
+}
+
+.page {
+  padding-top: 79px;
+}

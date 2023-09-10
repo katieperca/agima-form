@@ -1,0 +1,88 @@
+.instruction {
+  position: absolute;
+  top: 0;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 54px 53px 40px 93px;
+  width: 628px;
+  height: 803px;
+  background-color: #FFF;
+  border-radius: 16px;
+  transform: rotateY(180deg);
+}
+
+.instruction__title {
+  margin: 0;
+  margin-bottom: 57px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.instruction__list {
+  margin: 0;
+  margin-bottom: 36px;
+  padding: 0;
+  padding-left: 29px;
+  font-size: 22px;
+}
+
+.instruction__item {
+  margin-bottom: 24px;
+}
+
+.instruction__item:last-child {
+  margin-bottom: 0;
+}
+
+.instrustion__item-title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.instruction__question {
+  margin: 0;
+  margin-left: -10px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.instruction__button {
+  align-self: center;
+  position: relative;
+  padding: 0 24px;
+  width: 280px;
+  height: 56px;
+  border: none;
+  border-radius: 8px;
+  background: #05AC6A;
+  color: #fff;
+  align-self: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: end;
+  cursor: pointer;
+}
+
+.instruction__button::before {
+  content: '';
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  background-image: url(../../images/arrow-back.svg);
+  background-repeat: no-repeat;
+  top: 5px;
+  left: 6px;
+}
